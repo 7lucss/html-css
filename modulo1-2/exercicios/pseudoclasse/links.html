@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        a {                    
+            color: red;
+            text-decoration: none;       /* Aqui tirou aquele sublinhado feio do link */
+            font-weight: bold;
+        }
+
+        a:visited {                    /* Sites já visitados ficam vermelho escuro */
+            color: darkred;
+        }
+
+        a:hover {                     /* Quando passar o mouse em cima ele fica preto e sublinhado*/
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active {                /* no momento que for clicado, ele muda a configuração de estilização */
+            color: yellow;
+        }
+
+        a::after {
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.nike.com.br/" target="_blank"> Site Nike</a></li>
+        <li><a href="https://www.meutimao.com.br/" target="_blank">Site do Corinthians</a></li>
+        <li><a href="https://www.google.com.br/" target="_blank">Site Google</a></li>
+    </ul>
+</body>
+</html>

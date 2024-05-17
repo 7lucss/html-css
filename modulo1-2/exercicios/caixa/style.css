@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(110, 117, 117);
+    margin: 0px;
+    background-image: url(corinthians-200.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav{
+    background-color: rgb(105, 105, 105);
+    padding: 3px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.685); /*Criar sombra*/
+    border-radius: 8px 2px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 14px;
+    box-shadow: 4px 5px;;
+}
+
+article{
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+article > aside {
+    background-color: gray;
+    border-radius: 4px;
+}
+
+aside > p {
+    padding-left: 5px;
+}
+
+footer {
+    background-color: rgb(67, 68, 68);
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;     
+}
+
+div#bola{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
